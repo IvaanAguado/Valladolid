@@ -1,19 +1,22 @@
+h1{
+	color: skyblue;
+	font-size: 30px;
+	margin-top: 3%;
+
+}
+
 body{
 	font-family: arial;
-	margin: 10%;
+	margin: 1%;
 	text-align: left;
 	font-size: 14;
 }
 
-
-h1{
-	color: skyblue;
-	font-size: 30px;
-}
-
-img{
+li > img{
 	margin: 5px;
-	align-content: center;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 3px;
 }
 
 li{
@@ -23,5 +26,10 @@ li{
 	margin-bottom: 5px;
 	text-align: left;
 	font-size: 14;
+}
+
+.texto{
+	text-align: inherit;
+
 }
 

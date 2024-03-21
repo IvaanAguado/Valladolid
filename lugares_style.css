@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1{
+	color: skyblue;
+	font-size: 45px;
+  font-weight: bold;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  background-color: whitesmoke;
+}
+
+.lugares {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.lugares img {
+  max-width: 100%;
+  transition: opacity 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.lugares img:hover{
+  border-color: #66afe9; 
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.lugares img:hover + p{
+  opacity: 0.8;
+  display: block;
+}
+
+.lugares p {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: none;
+}
+
+.destacadas{
+  font-weight: bold;
+  text-decoration: underline;
+  color: skyblue;
+  font-size: 17px;
+}

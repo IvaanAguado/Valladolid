@@ -15,9 +15,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-.primeraImagen{
-    margin-right: 50px;
-}
 #introduccion{
     justify-content: center;
     align-items: center;
@@ -28,4 +25,15 @@ body{
         align-items: center;
         text-align: center;
         border: inset 5px;
+}
+#bloque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+#bloque #contenedores{
+    height: 1050px;
+    width: 1600px;
+    margin: 40px;
 }

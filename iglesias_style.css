@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 h1{
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
 	color: purple;
 	font-size: 30px;
 	margin-top: 3%;

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 nav{
+    font-family: 'PT Sans Narrow', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,7 +11,7 @@ nav{
     font-weight: bold;
     border: solid 5px;
     border-style: solid;
-    border-color: blueviolet;
+    border-color: black;
     margin-bottom: 0px;
     padding-bottom: 10px;
 }
@@ -26,5 +29,5 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: blueviolet;
+    color: blue;
 }

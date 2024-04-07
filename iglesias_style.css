@@ -1,27 +1,31 @@
 h1{
-	color: skyblue;
+	color: purple;
 	font-size: 30px;
 	margin-top: 3%;
+}
 
+.contenedores > h1{
+	color: skyblue;
 }
 
 body{
 	font-family: arial;
-	margin: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
 	text-align: left;
 	font-size: 18;
 }
 
-li > img{
+.contenedores > img{
 	margin: 5px;
 	align-items: center;
 	margin-top: 5px;
 	margin-bottom: 3px;
 }
 
-li{
+.contenedor{
 	font-family: arial;
-	margin: 10%;
+	margin: 5%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-align: left;

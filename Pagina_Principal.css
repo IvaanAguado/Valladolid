@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.carta{
+    position: relative;
+    width: 800px;
+    height: 850px;
+}
+
+.carta div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1.5s;
+    border: 2px solid black;
+}
+
+.carta .frontal1{
+    background: #288ca0;
+    transform: perspective(500px) rotateY(0deg);
+    border: 1px solid black;
+    border-color: #112031;
+    background-image: url(Imagenes/Foto_Valladolid_antigua.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.carta .back1{
+    background: white;
+    transform: perspective(500px) rotateY(180deg);
+}
+.carta .back1{
+    background: white;
+    transform: perspective(500px) rotateY(180deg);
+}
+.carta:hover .frontal1{
+    transform: perspective(500px) rotateY(180deg);
+}
+.carta:hover .back1{
+    transform: perspective(500px) rotateY(360deg);
+}
+.carta div h4 {
+    position: absolute;
+    height: 85%;
+    font-size: 20px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 0 0 2px black;
+}
+.carta .frontal2{
+    background: #288ca0;
+    transform: perspective(500px) rotateY(0deg);
+    border: 1px solid black;
+    border-color: #112031;
+    background-image: url(Imagenes/sanPablo.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.carta:hover .frontal2{
+    transform: perspective(500px) rotateY(180deg);
+}
+.carta .frontal3{
+    background: #288ca0;
+    transform: perspective(500px) rotateY(0deg);
+    border: 1px solid black;
+    border-color: #112031;
+    background-image: url(Imagenes/plazamayor.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.carta:hover .frontal3{
+    transform: perspective(500px) rotateY(180deg);
+}
+.carta .frontal4{
+    background: #288ca0;
+    transform: perspective(500px) rotateY(0deg);
+    border: 1px solid black;
+    border-color: #112031;
+    background-image: url(Imagenes/interior_zagales.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.carta:hover .frontal4{
+    transform: perspective(500px) rotateY(180deg);
+}
+.separar{
+    margin: bottom 90%;
+}
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; 
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+#container1 .carta{
+    height: 550px;
+    width: 600px;
+    margin: 40px;
+}
